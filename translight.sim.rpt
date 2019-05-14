@@ -1,0 +1,247 @@
+Simulator report for translight
+Wed Jan 10 22:31:49 2018
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 80 nodes     ;
+; Simulation Coverage         ;      91.25 % ;
+; Total Number of Transitions ; 18764        ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Stratix II   ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Functional ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      91.25 % ;
+; Total nodes checked                                 ; 80           ;
+; Total output ports checked                          ; 80           ;
+; Total output ports with complete 1/0-value coverage ; 73           ;
+; Total output ports with no 1/0-value coverage       ; 7            ;
+; Total output ports with no 1-value coverage         ; 7            ;
+; Total output ports with no 0-value coverage         ; 7            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++----------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                        ;
++----------------------------------------+----------------------------------------+------------------+
+; Node Name                              ; Output Port Name                       ; Output Port Type ;
++----------------------------------------+----------------------------------------+------------------+
+; |translight|H0                         ; |translight|H0                         ; pin_out          ;
+; |translight|inst26                     ; |translight|inst26                     ; out0             ;
+; |translight|clk                        ; |translight|clk                        ; out              ;
+; |translight|inst31                     ; |translight|inst31                     ; out0             ;
+; |translight|inst29                     ; |translight|inst29                     ; out0             ;
+; |translight|inst23                     ; |translight|inst23                     ; out0             ;
+; |translight|inst34                     ; |translight|inst34                     ; out0             ;
+; |translight|inst9                      ; |translight|inst9                      ; out0             ;
+; |translight|inst22                     ; |translight|inst22                     ; out0             ;
+; |translight|inst30                     ; |translight|inst30                     ; out0             ;
+; |translight|inst27                     ; |translight|inst27                     ; out0             ;
+; |translight|H1                         ; |translight|H1                         ; pin_out          ;
+; |translight|L0                         ; |translight|L0                         ; pin_out          ;
+; |translight|L1                         ; |translight|L1                         ; pin_out          ;
+; |translight|L2                         ; |translight|L2                         ; pin_out          ;
+; |translight|L3                         ; |translight|L3                         ; pin_out          ;
+; |translight|A1                         ; |translight|A1                         ; pin_out          ;
+; |translight|inst56                     ; |translight|inst56                     ; out0             ;
+; |translight|A2                         ; |translight|A2                         ; pin_out          ;
+; |translight|A3                         ; |translight|A3                         ; pin_out          ;
+; |translight|B1                         ; |translight|B1                         ; pin_out          ;
+; |translight|inst57                     ; |translight|inst57                     ; out0             ;
+; |translight|B2                         ; |translight|B2                         ; pin_out          ;
+; |translight|B3                         ; |translight|B3                         ; pin_out          ;
+; |translight|C1                         ; |translight|C1                         ; pin_out          ;
+; |translight|inst59                     ; |translight|inst59                     ; out0             ;
+; |translight|C2                         ; |translight|C2                         ; pin_out          ;
+; |translight|C3                         ; |translight|C3                         ; pin_out          ;
+; |translight|D1                         ; |translight|D1                         ; pin_out          ;
+; |translight|inst58                     ; |translight|inst58                     ; out0             ;
+; |translight|D2                         ; |translight|D2                         ; pin_out          ;
+; |translight|D3                         ; |translight|D3                         ; pin_out          ;
+; |translight|74138:inst35|22            ; |translight|74138:inst35|22            ; out0             ;
+; |translight|74138:inst35|21            ; |translight|74138:inst35|21            ; out0             ;
+; |translight|74138:inst35|20            ; |translight|74138:inst35|20            ; out0             ;
+; |translight|74138:inst35|19            ; |translight|74138:inst35|19            ; out0             ;
+; |translight|74138:inst35|18            ; |translight|74138:inst35|18            ; out0             ;
+; |translight|74138:inst35|17            ; |translight|74138:inst35|17            ; out0             ;
+; |translight|74138:inst35|16            ; |translight|74138:inst35|16            ; out0             ;
+; |translight|74138:inst35|15            ; |translight|74138:inst35|15            ; out0             ;
+; |translight|74161:inst21|f74161:sub|99 ; |translight|74161:inst21|f74161:sub|99 ; regout           ;
+; |translight|74161:inst21|f74161:sub|98 ; |translight|74161:inst21|f74161:sub|98 ; out0             ;
+; |translight|74161:inst21|f74161:sub|97 ; |translight|74161:inst21|f74161:sub|97 ; out0             ;
+; |translight|74161:inst21|f74161:sub|84 ; |translight|74161:inst21|f74161:sub|84 ; out0             ;
+; |translight|74161:inst21|f74161:sub|87 ; |translight|74161:inst21|f74161:sub|87 ; regout           ;
+; |translight|74161:inst21|f74161:sub|86 ; |translight|74161:inst21|f74161:sub|86 ; out0             ;
+; |translight|74161:inst21|f74161:sub|90 ; |translight|74161:inst21|f74161:sub|90 ; out0             ;
+; |translight|74161:inst21|f74161:sub|81 ; |translight|74161:inst21|f74161:sub|81 ; out0             ;
+; |translight|74161:inst21|f74161:sub|9  ; |translight|74161:inst21|f74161:sub|9  ; regout           ;
+; |translight|74161:inst21|f74161:sub|77 ; |translight|74161:inst21|f74161:sub|77 ; out0             ;
+; |translight|74161:inst|f74161:sub|110  ; |translight|74161:inst|f74161:sub|110  ; regout           ;
+; |translight|74161:inst|f74161:sub|108  ; |translight|74161:inst|f74161:sub|108  ; out0             ;
+; |translight|74161:inst|f74161:sub|107  ; |translight|74161:inst|f74161:sub|107  ; out0             ;
+; |translight|74161:inst|f74161:sub|94   ; |translight|74161:inst|f74161:sub|94   ; out0             ;
+; |translight|74161:inst|f74161:sub|99   ; |translight|74161:inst|f74161:sub|99   ; regout           ;
+; |translight|74161:inst|f74161:sub|98   ; |translight|74161:inst|f74161:sub|98   ; out0             ;
+; |translight|74161:inst|f74161:sub|97   ; |translight|74161:inst|f74161:sub|97   ; out0             ;
+; |translight|74161:inst|f74161:sub|84   ; |translight|74161:inst|f74161:sub|84   ; out0             ;
+; |translight|74161:inst|f74161:sub|87   ; |translight|74161:inst|f74161:sub|87   ; regout           ;
+; |translight|74161:inst|f74161:sub|86   ; |translight|74161:inst|f74161:sub|86   ; out0             ;
+; |translight|74161:inst|f74161:sub|90   ; |translight|74161:inst|f74161:sub|90   ; out0             ;
+; |translight|74161:inst|f74161:sub|81   ; |translight|74161:inst|f74161:sub|81   ; out0             ;
+; |translight|74161:inst|f74161:sub|9    ; |translight|74161:inst|f74161:sub|9    ; regout           ;
+; |translight|74161:inst|f74161:sub|77   ; |translight|74161:inst|f74161:sub|77   ; out0             ;
+; |translight|74161:inst1|f74161:sub|98  ; |translight|74161:inst1|f74161:sub|98  ; out0             ;
+; |translight|74161:inst1|f74161:sub|97  ; |translight|74161:inst1|f74161:sub|97  ; out0             ;
+; |translight|74161:inst1|f74161:sub|84  ; |translight|74161:inst1|f74161:sub|84  ; out0             ;
+; |translight|74161:inst1|f74161:sub|87  ; |translight|74161:inst1|f74161:sub|87  ; regout           ;
+; |translight|74161:inst1|f74161:sub|86  ; |translight|74161:inst1|f74161:sub|86  ; out0             ;
+; |translight|74161:inst1|f74161:sub|90  ; |translight|74161:inst1|f74161:sub|90  ; out0             ;
+; |translight|74161:inst1|f74161:sub|81  ; |translight|74161:inst1|f74161:sub|81  ; out0             ;
+; |translight|74161:inst1|f74161:sub|9   ; |translight|74161:inst1|f74161:sub|9   ; regout           ;
+; |translight|74161:inst1|f74161:sub|77  ; |translight|74161:inst1|f74161:sub|77  ; out0             ;
++----------------------------------------+----------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                           ;
++----------------------------------------+----------------------------------------+------------------+
+; Node Name                              ; Output Port Name                       ; Output Port Type ;
++----------------------------------------+----------------------------------------+------------------+
+; |translight|H2                         ; |translight|H2                         ; pin_out          ;
+; |translight|H3                         ; |translight|H3                         ; pin_out          ;
+; |translight|74161:inst1|f74161:sub|110 ; |translight|74161:inst1|f74161:sub|110 ; regout           ;
+; |translight|74161:inst1|f74161:sub|108 ; |translight|74161:inst1|f74161:sub|108 ; out0             ;
+; |translight|74161:inst1|f74161:sub|107 ; |translight|74161:inst1|f74161:sub|107 ; out0             ;
+; |translight|74161:inst1|f74161:sub|94  ; |translight|74161:inst1|f74161:sub|94  ; out0             ;
+; |translight|74161:inst1|f74161:sub|99  ; |translight|74161:inst1|f74161:sub|99  ; regout           ;
++----------------------------------------+----------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                           ;
++----------------------------------------+----------------------------------------+------------------+
+; Node Name                              ; Output Port Name                       ; Output Port Type ;
++----------------------------------------+----------------------------------------+------------------+
+; |translight|H2                         ; |translight|H2                         ; pin_out          ;
+; |translight|H3                         ; |translight|H3                         ; pin_out          ;
+; |translight|74161:inst1|f74161:sub|110 ; |translight|74161:inst1|f74161:sub|110 ; regout           ;
+; |translight|74161:inst1|f74161:sub|108 ; |translight|74161:inst1|f74161:sub|108 ; out0             ;
+; |translight|74161:inst1|f74161:sub|107 ; |translight|74161:inst1|f74161:sub|107 ; out0             ;
+; |translight|74161:inst1|f74161:sub|94  ; |translight|74161:inst1|f74161:sub|94  ; out0             ;
+; |translight|74161:inst1|f74161:sub|99  ; |translight|74161:inst1|f74161:sub|99  ; regout           ;
++----------------------------------------+----------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+    Info: Processing started: Wed Jan 10 22:31:48 2018
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off translight -c translight
+Info: Using vector source file "C:/Users/Ethdthnt/Desktop/TransLight/translight.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      91.25 %
+Info: Number of transitions in simulation is 18764
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 209 megabytes
+    Info: Processing ended: Wed Jan 10 22:31:49 2018
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
